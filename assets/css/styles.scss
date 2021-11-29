@@ -212,6 +212,9 @@ $link-hover-decoration: none;
 $link-letter-spacing: $letter-spacing-base + 0.01em;
 $link-shade-percentage: 0;
 // ---------------------------------------------------------------------------------
+$table-cell-padding-x: $spacer * $spacer-ratio * .5;
+$table-cell-padding-y: $table-cell-padding-x;
+// ---------------------------------------------------------------------------------
 // G) Custom
 // ---------------------------------------------------------------------------------
 $prose-max-width: 72ch;
@@ -306,7 +309,7 @@ figure {
 @import "bootstrap/images";
 @import "bootstrap/containers";
 @import "bootstrap/grid";
-//@import "bootstrap/tables";
+@import "bootstrap/tables";
 //@import "bootstrap/forms";
 //@import "bootstrap/buttons";
 @import "bootstrap/transitions";
