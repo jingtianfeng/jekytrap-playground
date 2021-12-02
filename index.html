@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Home
+arr_work:
+  - title: Hollow Knight Merch Store
+    description: 'storefront / cart'
+  - title: Quadra Event Page
+    description: 'landing / rsvp'
 ---
 
 <header class="border-top border-dark"
@@ -59,4 +64,13 @@ title: Home
             </div>
         </div>
     </div>
+</section>
+<section class="border-top border-dark"
+	 id="home-work">
+	<div class="container py-6">
+		{% for work in page.arr_work %}
+		  <p>{{ work.title }}</p>
+		  <p>{{ work.description }}</p>
+		{% endfor %}
+	</div>
 </section>
