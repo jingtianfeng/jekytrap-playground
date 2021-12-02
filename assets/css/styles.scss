@@ -65,8 +65,8 @@ $spacers: (
 // ---------------------------------------------------------------------------------
 // C) Layout
 // ---------------------------------------------------------------------------------
-$grid-columns: 4;
-$grid-row-columns: 4;
+$grid-columns: {{ site.nbr_column }};
+$grid-row-columns: {{ site.nbr_column }};
 $grid-gutter-width: $spacer * $spacer-ratio;
 $grid-breakpoints: (
         xs: 0,
