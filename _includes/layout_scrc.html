@@ -1,0 +1,12 @@
+<section class="border-top border-dark"
+	 id="{{ include.section_id }}">
+	<div class="container py-6">
+		<div class="row">
+			{% for col in include.arr_col %}
+			<div class="col-{{col.nbr}}">
+				{{ col.nbr }}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
